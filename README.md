@@ -76,7 +76,7 @@ Run the interpreter on a file:
 ```
 ./monty bytecode_file
 ```
-# > Available Monty Opcodes
+## > Available Monty Opcodes
 - [x] push
  * Usage: push <int>
  * Pushes an element to the stack.
