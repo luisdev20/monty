@@ -94,16 +94,16 @@ Run the interpreter on a file:
 - [x] add
  * Adds the top two elements of the stack/queue.
  * The result is stored in the second element from the top and the top element is popped.
-- [ ] sub
+- [x] sub
  * Subtracts the top element of the stack/queue from the second element from the top.
  * The result is stored in the second element from the top and the top element is removed.
-- [ ] mul
+- [x] mul
  * Multiplies the top two elements of the stack/queue.
  * The result is stored in the second element from the top and the top element is removed.
-- [ ] div
+- [x] div
  * Divides the second element from the top of the stack/queue by the top element.
  * The result is stored in the second element from the top and the top element is removed.
-- [ ] mod
+- [x] mod
  * Computes the modulus of the second element from the top of the stack/queue divided by the top element.
  * The result is stored in the second element from the top and the top element is removed.
 - [ ] pchar
