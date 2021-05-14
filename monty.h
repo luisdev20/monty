@@ -4,8 +4,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-
-#define DELIMS " \n\t\a\b"
+#include <stdlib.h>
+#include <ctype.h>
+#include <stdarg.h>
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
