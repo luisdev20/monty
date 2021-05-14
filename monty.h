@@ -41,6 +41,14 @@ typedef struct instruction_s
 /* global variable for opcode tokens */
 extern stack_t *head;
 
+/*Type for opcode functions*/
+typedef void (*op_func)(stack_t **, unsigned int);
 
+/*File operations*/
+void open_file(char *);
+void read_file(FILE *);
+int len_chars(FILE *);
+int interpret_line(char *, int, int);
+void find_func(char *, char *, int, int);
 
 #endif /*__MONTY_H__*/
