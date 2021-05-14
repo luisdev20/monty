@@ -83,15 +83,15 @@ Run the interpreter on a file:
  * The parameter <int> must be an integer.
 - [x] pall
  * Prints all values in the stack/queue, starting from the top.
-- [ ] pint
+- [x] pint
  * Prints the top value of the stack/queue.
-- [ ] pop
+- [x] pop
  * Removes the top element of the stack/queue.
-- [ ] swap
+- [x] swap
  * Swaps the top two elements of the stack/queue.
-- [ ] nop
+- [x] nop
  * Does not do anything.
-- [ ] add
+- [x] add
  * Adds the top two elements of the stack/queue.
  * The result is stored in the second element from the top and the top element is popped.
 - [ ] sub
